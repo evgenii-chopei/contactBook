@@ -12,6 +12,16 @@
 		16849BD82041FCC500AE9EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16849BD62041FCC500AE9EA1 /* Main.storyboard */; };
 		16849BDA2041FCC500AE9EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16849BD92041FCC500AE9EA1 /* Assets.xcassets */; };
 		16849BDD2041FCC500AE9EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16849BDB2041FCC500AE9EA1 /* LaunchScreen.storyboard */; };
+		16849BE92041FCF500AE9EA1 /* CoreDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16849BE82041FCF500AE9EA1 /* CoreDataCoordinator.swift */; };
+		16849BEC2041FD2800AE9EA1 /* StorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16849BEB2041FD2800AE9EA1 /* StorageProtocol.swift */; };
+		16849BEF2041FD6E00AE9EA1 /* ContactModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16849BED2041FD6E00AE9EA1 /* ContactModel.xcdatamodeld */; };
+		16849BF22041FDE600AE9EA1 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16849BF12041FDE600AE9EA1 /* ContactModel.swift */; };
+		16849BF620420ABD00AE9EA1 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16849BF420420ABD00AE9EA1 /* ContactListViewController.swift */; };
+		16849BF720420ABD00AE9EA1 /* ContactListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16849BF520420ABD00AE9EA1 /* ContactListViewController.xib */; };
+		16849BFA2042193000AE9EA1 /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 16849BF92042193000AE9EA1 /* contacts.json */; };
+		16849BFF2042201D00AE9EA1 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16849BFD2042201D00AE9EA1 /* ContactDetailViewController.swift */; };
+		16849C002042201D00AE9EA1 /* ContactDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16849BFE2042201D00AE9EA1 /* ContactDetailViewController.xib */; };
+		16DE16D52043F04400CE236F /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE16D42043F04400CE236F /* EditContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		16849BD92041FCC500AE9EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16849BDC2041FCC500AE9EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16849BDE2041FCC500AE9EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16849BE82041FCF500AE9EA1 /* CoreDataCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCoordinator.swift; sourceTree = "<group>"; };
+		16849BEB2041FD2800AE9EA1 /* StorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProtocol.swift; sourceTree = "<group>"; };
+		16849BEE2041FD6E00AE9EA1 /* ContactModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactModel.xcdatamodel; sourceTree = "<group>"; };
+		16849BF12041FDE600AE9EA1 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		16849BF420420ABD00AE9EA1 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		16849BF520420ABD00AE9EA1 /* ContactListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactListViewController.xib; sourceTree = "<group>"; };
+		16849BF92042193000AE9EA1 /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		16849BFD2042201D00AE9EA1 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		16849BFE2042201D00AE9EA1 /* ContactDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactDetailViewController.xib; sourceTree = "<group>"; };
+		16DE16D42043F04400CE236F /* EditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,10 @@
 		16849BD12041FCC500AE9EA1 /* ContactBook */ = {
 			isa = PBXGroup;
 			children = (
+				16849BF8204218D200AE9EA1 /* Resources */,
+				16849BE62041FCE000AE9EA1 /* Models */,
+				16849BE52041FCDA00AE9EA1 /* Helpers */,
+				16849BE42041FCD400AE9EA1 /* View */,
 				16849BD22041FCC500AE9EA1 /* AppDelegate.swift */,
 				16849BD42041FCC500AE9EA1 /* ViewController.swift */,
 				16849BD62041FCC500AE9EA1 /* Main.storyboard */,
@@ -62,6 +86,100 @@
 				16849BDE2041FCC500AE9EA1 /* Info.plist */,
 			);
 			path = ContactBook;
+			sourceTree = "<group>";
+		};
+		16849BE42041FCD400AE9EA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16849BF320420AAD00AE9EA1 /* Controllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16849BE52041FCDA00AE9EA1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				16849BEA2041FD1200AE9EA1 /* Storage */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		16849BE62041FCE000AE9EA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				16849BF02041FDDA00AE9EA1 /* ContactModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		16849BE72041FCE800AE9EA1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				16849BE82041FCF500AE9EA1 /* CoreDataCoordinator.swift */,
+				16849BED2041FD6E00AE9EA1 /* ContactModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		16849BEA2041FD1200AE9EA1 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				16849BE72041FCE800AE9EA1 /* CoreData */,
+				16849BEB2041FD2800AE9EA1 /* StorageProtocol.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		16849BF02041FDDA00AE9EA1 /* ContactModel */ = {
+			isa = PBXGroup;
+			children = (
+				16849BF12041FDE600AE9EA1 /* ContactModel.swift */,
+			);
+			path = ContactModel;
+			sourceTree = "<group>";
+		};
+		16849BF320420AAD00AE9EA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16849BFC20421FB000AE9EA1 /* ContactDetail */,
+				16849BFB20421FA900AE9EA1 /* ContactList */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		16849BF8204218D200AE9EA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				16849BF92042193000AE9EA1 /* contacts.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		16849BFB20421FA900AE9EA1 /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				16849BF420420ABD00AE9EA1 /* ContactListViewController.swift */,
+				16849BF520420ABD00AE9EA1 /* ContactListViewController.xib */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		16849BFC20421FB000AE9EA1 /* ContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				16DE16D32043F02200CE236F /* EditController */,
+				16849BFD2042201D00AE9EA1 /* ContactDetailViewController.swift */,
+				16849BFE2042201D00AE9EA1 /* ContactDetailViewController.xib */,
+			);
+			path = ContactDetail;
+			sourceTree = "<group>";
+		};
+		16DE16D32043F02200CE236F /* EditController */ = {
+			isa = PBXGroup;
+			children = (
+				16DE16D42043F04400CE236F /* EditContactViewController.swift */,
+			);
+			path = EditController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16849BFA2042193000AE9EA1 /* contacts.json in Resources */,
 				16849BDD2041FCC500AE9EA1 /* LaunchScreen.storyboard in Resources */,
+				16849BF720420ABD00AE9EA1 /* ContactListViewController.xib in Resources */,
 				16849BDA2041FCC500AE9EA1 /* Assets.xcassets in Resources */,
+				16849C002042201D00AE9EA1 /* ContactDetailViewController.xib in Resources */,
 				16849BD82041FCC500AE9EA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +257,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16849BEF2041FD6E00AE9EA1 /* ContactModel.xcdatamodeld in Sources */,
 				16849BD52041FCC500AE9EA1 /* ViewController.swift in Sources */,
+				16849BF22041FDE600AE9EA1 /* ContactModel.swift in Sources */,
+				16849BE92041FCF500AE9EA1 /* CoreDataCoordinator.swift in Sources */,
 				16849BD32041FCC500AE9EA1 /* AppDelegate.swift in Sources */,
+				16DE16D52043F04400CE236F /* EditContactViewController.swift in Sources */,
+				16849BF620420ABD00AE9EA1 /* ContactListViewController.swift in Sources */,
+				16849BFF2042201D00AE9EA1 /* ContactDetailViewController.swift in Sources */,
+				16849BEC2041FD2800AE9EA1 /* StorageProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +450,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16849BED2041FD6E00AE9EA1 /* ContactModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16849BEE2041FD6E00AE9EA1 /* ContactModel.xcdatamodel */,
+			);
+			currentVersion = 16849BEE2041FD6E00AE9EA1 /* ContactModel.xcdatamodel */;
+			path = ContactModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 16849BC72041FCC500AE9EA1 /* Project object */;
 }

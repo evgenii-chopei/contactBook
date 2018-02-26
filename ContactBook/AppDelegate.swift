@@ -10,12 +10,15 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+         _ =  CoreDataCoordinator.shared
+        let contactsViewController = ContactListViewController.init(nibName: "ContactListViewController", bundle: nil)
+        let navigation = UINavigationController(rootViewController: contactsViewController)
+        UIApplication.shared.windows.first?.rootViewController = navigation
+       
         return true
     }
 
