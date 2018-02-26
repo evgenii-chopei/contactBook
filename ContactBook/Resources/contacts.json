@@ -1,0 +1,116 @@
+ [
+  {
+  "contactID": "p1",
+  "firstName": "Pavlo",
+  "lastName": "Boiko",
+  "phoneNumber": "+38063360405",
+  "streetAdress1": "Ukraine, Uzhgorod",
+  "streetAdress2": "Karmeluka street 22",
+  "city": "Uzhgorod",
+  "state": "Zakarpattya",
+  "zipCode": "88000"
+  
+  }, {
+  "contactID": "p2",
+  "firstName": "Vitaliy",
+  "lastName": "Yaremko",
+  "phoneNumber": "+380687010370",
+  "streetAdress1": "Ukraine, Sambir",
+  "streetAdress2": "Shevchenka street 22",
+  "city": "Uzhgorod",
+  "state": "Zakarpattya",
+  "zipCode": "88000"
+  
+  }, {
+  "contactID": "p3",
+  "firstName": "Artur",
+  "lastName": "Demnich",
+  "phoneNumber": "+380631768178",
+  "streetAdress1": "Ukraine, Uzhgorod",
+  "streetAdress2": "Zankovetska street 21",
+  "city": "Uzhgorod",
+  "state": "Zakarpattya",
+  "zipCode": "88000"
+  
+  }, {
+  "contactID": "p4",
+  "firstName": "Misha",
+  "lastName": "Zejkan",
+  "phoneNumber": "+380988851960",
+  "streetAdress1": "Ukraine, Irshava",
+  "streetAdress2": "Bilky street 22",
+  "city": "Irshava",
+  "state": "Zakarpattya",
+  "zipCode": "88000"
+  
+  }, {
+  "contactID": "p5",
+  "firstName": "Alexandr",
+  "lastName": "Novikov",
+  "phoneNumber": "+380633244222",
+  "streetAdress1": "Ukraine, Uzhgorod",
+  "streetAdress2": "Slava USSR street 22",
+  "city": "Uzhgorod",
+  "state": "Zakarpattya",
+  "zipCode": "88000"
+  
+  },
+  
+  {
+  "contactID": "p6",
+  "firstName": "Denis",
+  "lastName": "Melnikov",
+  "phoneNumber": "+380504672132",
+  "streetAdress1": "Ukraine, Kharkiv",
+  "streetAdress2": "Tutkivor street 99",
+  "city": "Kharkiv",
+  "state": "Zakarpattya",
+  "zipCode": "98222"
+  
+  }, {
+  "contactID": "p7",
+  "firstName": "Nadya",
+  "lastName": "Bunder",
+  "phoneNumber": "+380501234432",
+  "streetAdress1": "Ukraine, Kiev",
+  "streetAdress2": "Prospekt Nikiti 22",
+  "city": "Kiev",
+  "state": "Zakarpattya",
+  "zipCode": "88000"
+  
+  }, {
+  "contactID": "p8",
+  "firstName": "Nastya",
+  "lastName": "Shendura",
+  "phoneNumber": "+380635574232",
+  "streetAdress1": "Ukraine, Vinnutsya",
+  "streetAdress2": "Duda street 22",
+  "city": "Vinnutsya",
+  "state": "Vinnutsya",
+  "zipCode": "88000"
+  
+  }, {
+  "contactID": "p9",
+  "firstName": "Valera",
+  "lastName": "Dido",
+  "phoneNumber": "+380502274192",
+  "streetAdress1": "Ukraine, Uzhgorod",
+  "streetAdress2": "Karmeluka street 22",
+  "city": "Uzhgorod",
+  "state": "Zakarpattya",
+  "zipCode": "88000"
+  
+  }, {
+  "contactID": "p10",
+  "firstName": "Kiril",
+  "lastName": "Gonoreev",
+  "phoneNumber": "+3806375343",
+  "streetAdress1": "USSR, Leningrad",
+  "streetAdress2": "Geroiv USSR street 22",
+  "city": "Leningrad",
+  "state": "Leningradskaya",
+  "zipCode": "88000"
+  
+  }
+]
+
