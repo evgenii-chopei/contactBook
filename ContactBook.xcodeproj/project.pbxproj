@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		16849BD32041FCC500AE9EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16849BD22041FCC500AE9EA1 /* AppDelegate.swift */; };
-		16849BD52041FCC500AE9EA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16849BD42041FCC500AE9EA1 /* ViewController.swift */; };
 		16849BD82041FCC500AE9EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16849BD62041FCC500AE9EA1 /* Main.storyboard */; };
 		16849BDA2041FCC500AE9EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16849BD92041FCC500AE9EA1 /* Assets.xcassets */; };
 		16849BDD2041FCC500AE9EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16849BDB2041FCC500AE9EA1 /* LaunchScreen.storyboard */; };
@@ -27,7 +26,6 @@
 /* Begin PBXFileReference section */
 		16849BCF2041FCC500AE9EA1 /* ContactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16849BD22041FCC500AE9EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16849BD42041FCC500AE9EA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16849BD72041FCC500AE9EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16849BD92041FCC500AE9EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16849BDC2041FCC500AE9EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 				16849BE52041FCDA00AE9EA1 /* Helpers */,
 				16849BE42041FCD400AE9EA1 /* View */,
 				16849BD22041FCC500AE9EA1 /* AppDelegate.swift */,
-				16849BD42041FCC500AE9EA1 /* ViewController.swift */,
 				16849BD62041FCC500AE9EA1 /* Main.storyboard */,
 				16849BD92041FCC500AE9EA1 /* Assets.xcassets */,
 				16849BDB2041FCC500AE9EA1 /* LaunchScreen.storyboard */,
@@ -258,7 +255,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				16849BEF2041FD6E00AE9EA1 /* ContactModel.xcdatamodeld in Sources */,
-				16849BD52041FCC500AE9EA1 /* ViewController.swift in Sources */,
 				16849BF22041FDE600AE9EA1 /* ContactModel.swift in Sources */,
 				16849BE92041FCF500AE9EA1 /* CoreDataCoordinator.swift in Sources */,
 				16849BD32041FCC500AE9EA1 /* AppDelegate.swift in Sources */,
